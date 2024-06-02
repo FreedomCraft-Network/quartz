@@ -4,18 +4,18 @@ import * as Plugin from "./quartz/plugins"
 /**
  * Quartz 4.0 Configuration
  *
- * See https://quartz.jzhao.xyz/configuration for more information.
+ * See https://quartz.freedomcraft.wiki/configuration for more information.
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz",
+    pageTitle: "Quartz 4",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "dev.freedomcraft.wiki",
+    baseUrl: "quartz.freedomcraft.wiki",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
